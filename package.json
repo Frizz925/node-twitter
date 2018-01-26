@@ -27,5 +27,6 @@
     "mocha": "^3.2.0",
     "nock": "^9.0.2"
   },
-  "main": "./lib/twitter"
+  "main": "./lib/twitter",
+  "types": "./lib/twitter.d.ts"
 }
