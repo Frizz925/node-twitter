@@ -24,7 +24,7 @@ type ResponseCallback = (
 
 type StreamCallback = (stream: EventEmitter) => void;
 
-export default class Twitter {
+declare class Twitter {
   public options: TwitterOptions;
 
   public constructor(options: TwitterOptions);
@@ -43,7 +43,7 @@ export default class Twitter {
 
   public stream(
     method: string,
-    params?: object | StreamCallback,
+    params?: object | string | StreamCallback,
     callback?: StreamCallback
   ): EventEmitter | void;
 
@@ -56,3 +56,6 @@ export default class Twitter {
     callback?: ResponseCallback
   ): Promise<object> | void;
 }
+
+declare namespace Twitter {}
+export = Twitter;
