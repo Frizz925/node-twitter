@@ -1,6 +1,7 @@
 import { RequestOptions } from 'http';
 import { RequestResponse } from 'request';
 import { EventEmitter } from 'events';
+import Parser from './parser';
 
 interface TwitterOptions {
   consumer_key?: string;
@@ -22,7 +23,7 @@ type ResponseCallback = (
   response: RequestResponse
 ) => void;
 
-type StreamCallback = (stream: EventEmitter) => void;
+type StreamCallback = (stream: Twitter.Stream) => void;
 
 declare class Twitter {
   public options: TwitterOptions;
@@ -45,7 +46,7 @@ declare class Twitter {
     method: string,
     params?: object | string | StreamCallback,
     callback?: StreamCallback
-  ): EventEmitter | void;
+  ): Twitter.Stream | void;
 
   private __buildEndpoint(path: string, base: string): string;
 
@@ -57,5 +58,7 @@ declare class Twitter {
   ): Promise<object> | void;
 }
 
-declare namespace Twitter {}
+declare namespace Twitter {
+  export type Stream = Parser;
+}
 export = Twitter;
