@@ -1,6 +1,6 @@
 {
-  "name": "twitter",
-  "version": "1.7.1",
+  "name": "@frizz925/twitter",
+  "version": "1.7.2",
   "description": "Twitter API client library for node.js",
   "license": "MIT",
   "keywords": [
@@ -10,6 +10,9 @@
   ],
   "homepage": "https://github.com/desmondmorris/node-twitter",
   "author": "Desmond Morris <hi@desmondmorris.com>",
+  "contributors": [
+    "Izra Faturrahman <Frizz925@hotmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/desmondmorris/node-twitter"
