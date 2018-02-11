@@ -7,7 +7,7 @@ An asynchronous client library for the Twitter [REST](https://dev.twitter.com/re
 [![NPM](https://nodei.co/npm/@frizz925/twitter.png?mini=true)](https://nodei.co/npm/@frizz925/twitter/)
 
 ```javascript
-var Twitter = require('twitter');
+var Twitter = require('@frizz925/twitter');
 
 var client = new Twitter({
   consumer_key: '',
