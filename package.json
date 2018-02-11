@@ -1,6 +1,6 @@
 {
   "name": "@frizz925/twitter",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Twitter API client library for node.js",
   "license": "MIT",
   "keywords": [
@@ -8,14 +8,14 @@
     "streaming",
     "oauth"
   ],
-  "homepage": "https://github.com/desmondmorris/node-twitter",
+  "homepage": "https://github.com/frizz925/node-twitter",
   "author": "Desmond Morris <hi@desmondmorris.com>",
   "contributors": [
     "Izra Faturrahman <Frizz925@hotmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/desmondmorris/node-twitter"
+    "url": "https://github.com/frizz925/node-twitter"
   },
   "scripts": {
     "test": "npm run lint && mocha",
