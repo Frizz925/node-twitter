@@ -9,10 +9,7 @@
     "oauth"
   ],
   "homepage": "https://github.com/frizz925/node-twitter",
-  "author": "Desmond Morris <hi@desmondmorris.com>",
-  "contributors": [
-    "Izra Faturrahman <Frizz925@hotmail.com>"
-  ],
+  "author": "Izra Faturrahman <Frizz925@hotmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/frizz925/node-twitter"

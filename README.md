@@ -2,8 +2,9 @@
 
 An asynchronous client library for the Twitter [REST](https://dev.twitter.com/rest/public) and [Streaming](https://dev.twitter.com/streaming/overview) API's.
 
-[![Build Status](https://travis-ci.org/desmondmorris/node-twitter.svg?branch=master)](https://travis-ci.org/desmondmorris/node-twitter)
- [![NPM](https://nodei.co/npm/twitter.png?mini=true)](https://nodei.co/npm/twitter/)
+[![Build Status](https://travis-ci.org/frizz925/node-twitter.svg?branch=master)](https://travis-ci.org/frizz925/node-twitter)
+[![npm version](https://badge.fury.io/js/%40frizz925%2Ftwitter.svg)](https://badge.fury.io/js/%40frizz925%2Ftwitter)
+[![NPM](https://nodei.co/npm/@frizz925/twitter.png?mini=true)](https://nodei.co/npm/@frizz925/twitter/)
 
 ```javascript
 var Twitter = require('twitter');
@@ -25,7 +26,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
 
 ## Installation
 
-`npm install twitter`
+`npm install @frizz925/twitter`
 
 ## Quick Start
 
@@ -175,18 +176,18 @@ const isTweet = _.conforms({
 
 ## Examples
 
-* [Tweet](https://github.com/desmondmorris/node-twitter/tree/master/examples#tweet)
-* [Search](https://github.com/desmondmorris/node-twitter/tree/master/examples#search)
-* [Streams](https://github.com/desmondmorris/node-twitter/tree/master/examples#streams)
-* [Proxy](https://github.com/desmondmorris/node-twitter/tree/master/examples#proxy)
-* [Media](https://github.com/desmondmorris/node-twitter/tree/master/examples#media)
-* [Chunked Media](https://github.com/desmondmorris/node-twitter/tree/master/examples#chunked-media)
+* [Tweet](https://github.com/frizz925/node-twitter/tree/master/examples#tweet)
+* [Search](https://github.com/frizz925/node-twitter/tree/master/examples#search)
+* [Streams](https://github.com/frizz925/node-twitter/tree/master/examples#streams)
+* [Proxy](https://github.com/frizz925/node-twitter/tree/master/examples#proxy)
+* [Media](https://github.com/frizz925/node-twitter/tree/master/examples#media)
+* [Chunked Media](https://github.com/frizz925/node-twitter/tree/master/examples#chunked-media)
 
 ## Contributors
 
 Originally authored by  [@technoweenie](http://github.com/technoweenie)
- and maintained by [@jdub](http://github.com/jdub)
+ and maintained by [@jdub](http://github.com/jdub) and [@desmondmorris](http://github.com/desmondmorris)
 
-Currently maintained by [@desmondmorris](http://github.com/desmondmorris)
+Currently maintained by [@frizz925](http://github.com/frizz925)
 
-[And we cannot forget the community](https://github.com/desmondmorris/node-twitter/graphs/contributors)
+[And we cannot forget the community](https://github.com/frizz925/node-twitter/graphs/contributors)
